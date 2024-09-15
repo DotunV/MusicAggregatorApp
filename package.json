@@ -1,17 +1,20 @@
 {
-  "name": "MusicAggregatorApp",
+  "name": "music-aggregator-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "react-native start --port 5000",
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "react": "18.3.1",
-    "react-native": "0.75.3"
+    "react-native": "0.75.3",
+    "react-native-app-auth": "^8.0.0",
+    "react-native-music-control": "^1.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
